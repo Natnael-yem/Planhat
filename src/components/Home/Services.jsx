@@ -98,7 +98,7 @@ const Services = () => {
             <Flex className="w-[100%] space-y-6 lg:pt-0 sm:pt-[12rem] pt-0 mx-auto flex-col  pt-10">
                 <Flex className="lg:w-[80%] w-[95%] h-[31rem] mx-auto group relative">
                     <div className="absolute z-10 bg-gradient-to-b from-transparent to-[#030302]/80 w-[100%] h-[31rem] rounded-2xl" />
-                    <img src="/work.avif" alt="work" className=" object-cover  rounded-2xl" />
+                    <img src="/work.avif" alt="work" className=" object-cover w-[100%] rounded-2xl" />
                     <Flex className="absolute z-20 lg:top-20 top-6 lg:left-20 left-4">
                         <Flex className="text-white lg:items-center items-start flex-col space-y-6 ">
                             <p className="inter-semibold lg:text-[5.5rem] text-[2rem] lg:leading-[5rem] lg:w-[100%] w-[80%] lg:text-center ">A unified ecosystem for customer action</p>
@@ -114,7 +114,7 @@ const Services = () => {
                 </Flex>
                 <Flex className="lg:flex-row flex-col h-fit lg:w-[80%] w-[95%] lg:space-x-6 space-x-0 lg:space-y-0 space-y-6 mx-auto">
                     <Flex className="lg:w-[50%] lg:h-[45rem]  h-[24rem] group relative">
-                        <img src="/service.jpg" alt="work" className=" object-cover  rounded-2xl" />
+                        <img src="/service.jpg" alt="work" className=" object-cover w-[100%] rounded-2xl" />
                         <Flex className="absolute z-20 top-5 left-10">
                             <Flex className="text-white justify-between items-between lg:h-[42rem] items-start flex-col space-y-12  ">
                                 <Flex className="flex-col space-y-2">
@@ -149,7 +149,7 @@ const Services = () => {
                     </Flex>
                 </Flex>
                 <Flex className="lg:w-[80%] w-[95%] lg:h-[40rem] h-[25rem] mx-auto group relative">
-                    <img src="/tab.avif" alt="work" className=" object-cover  rounded-2xl" />
+                    <img src="/tab.avif" alt="work" className=" object-cover w-[100%] rounded-2xl" />
                     <Flex className="absolute z-20 justify-between flex-col items-center  lg:h-[38rem] top-0 lg:left-20 left-6">
                         <Flex className="text-white lg:items-center flex-col space-y-1 ">
                             <p className="inter-semibold text-[2rem] leading-[5rem] lg:text-center ">Data explorer</p>
