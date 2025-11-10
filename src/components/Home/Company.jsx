@@ -3,13 +3,13 @@ import { GoArrowUpRight } from "react-icons/go";
 
 const Company = () => {
     return (
-        <Flex className='pt-24 lg:w-[74.5%] sm:w-[99%] w-[94%] space-y-7 ms-auto min-h-screen flex-col'>
+        <Flex className='pt-24 xl:w-[74.5%] lg:w-[85%] sm:w-[99%] w-[94%] space-y-7 ms-auto min-h-screen flex-col'>
             <Flex className='flex-col lg:leading-[5.3rem] leading-[3rem]'>
                 <p className='inter-semibold lg:text-[4.7rem] text-[3rem] text-[#9E9D9B]'>Unity your business</p>
                 <p className='inter-semibold lg:text-[5rem] text-[3rem]'>on Planhat.</p>
             </Flex>
             <p className='inter-medium text-[1.2rem] lg:w-[65%] text-[#A2A19F]'>Planhat enables businesses all over the world, of every shape and size, to acquire, service and grow customers more successfully.</p>
-            <Flex className="grid sm:grid-cols-3 grid-cols-1 gap-3 lg:w-[67%] ">
+            <Flex className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 2:w-[67%] xl:w-[80%] w-[100%]">
                 <Flex className="items-center ">
                     <img src="/1.jpg" alt="" className="h-[19rem] cursor-pointer sm:w-[15rem] w-[18rem] relative z-0 object-cover rounded-2xl" />
                     <img src="/11.svg" alt="" className="absolute z-10 " />

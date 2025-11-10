@@ -16,9 +16,9 @@ const Home = () => {
             <Journey />
             <Works />
             <Services />
-            <Tools/>
-            <Company/>
-            <Banner/>
+            <Tools />
+            <Company />
+            <Banner />
         </Flex>
     );
 };

@@ -52,7 +52,7 @@ const Navbar = () => {
             <Flex className={`md:flex hidden w-full transition-all duration-300 ${scrolled ? 'bg-white/80 backdrop-blur-md ' : 'bg-transparent'} ${dropdown && scrolled && 'flex-col h-screen pt-4 backdrop-blur-lg bg-gradient-to-l from-transparent to-white/80'} ${dropdown ? 'flex-col h-screen pt-4 backdrop-blur-lg bg-gradient-to-l from-transparent to-[#030302]/80' : 'py-4'}`}>
                 <Flex className=" justify-around w-[84%] mx-auto items-center">
                     <Flex className="">
-                        <p className={`${scrolled ? 'text-black' : 'text-white'}  text-[1.3rem] inter-extrabold`}>planthat</p>
+                        <p className={`${scrolled ? 'text-black' : 'text-white'}  text-[1.3rem] inter-extrabold`}>planhat</p>
                     </Flex>
                     {NavList?.map((item) =>
                         <Flex className=" cursor-pointer items-center" onClick={() => handleClick(item)}>
